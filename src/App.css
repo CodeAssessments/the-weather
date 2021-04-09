@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+  font-size: 24px;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  background-image: linear-gradient(-5deg, #6accec, #2670c5);
+  height: 100vh;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10%;
+  flex-direction: row;
+}
+
+.column {
+  min-width: 300px;
+  flex: 1;
+  margin: 10px;
+}
+
+.row {
+  flex-direction: row;
+}
