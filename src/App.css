@@ -64,9 +64,12 @@ input[type=submit]:active {
 .column {
   min-width: 360px;
   flex: 1;
-  margin: 10px;
+}
+
+.columnStyle {
   background-color: rgba(224, 244, 224, 0.2);
   border-radius: 25px;
+  margin: 10px;
 }
 
 .row {
