@@ -5,9 +5,9 @@ Check out a live version at https://weatherwindow.netlify.app/.
 
 ## Running the project
 
-If you want to run the project locally you need to have an api key from https://openweathermap.org/.\
+If you want to run the project locally you need to have an api key from https://openweathermap.org/. \
 Create a .env file with the key REACT_APP_OPENWEATHERMAP_API_KEY and your api key.\
-More information is available at https://create-react-app.dev/docs/adding-custom-environment-variables/.\
+More information is available at https://create-react-app.dev/docs/adding-custom-environment-variables/. \
 In the project directory, you can run:
 
 ### `yarn start`
