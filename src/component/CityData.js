@@ -43,7 +43,7 @@ const CityData = ({weatherData}) => {
     return (
         <div>
             <h1>{cityData.name}</h1>
-            <br />
+            <hr />
             <div className='row'>
               <p>Sunrise: {getTime(cityData.sunrise + cityData.timezone)}</p>
               <p>Sunset: {getTime(cityData.sunset + cityData.timezone)}</p>
@@ -56,6 +56,7 @@ const CityData = ({weatherData}) => {
               <p>Mean: {tempMean}°</p>
               <p>Mode: {mode(modeData)}°</p>
             </div>
+            <br />
         </div>
     )
 }

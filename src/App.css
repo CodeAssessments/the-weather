@@ -9,11 +9,34 @@
 .App {
   text-align: center;
   background-image: linear-gradient(-5deg, #6accec, #2670c5);
+  background-attachment: fixed;
   min-height: 100vh;
 }
 
 h1 {
   font-size: 48px;
+  line-height: 4rem;
+}
+
+.header {
+  font-size: 36px;
+  line-height: 4rem;
+}
+
+.bigText {
+  font-size: 36px;
+}
+
+.smallText {
+  font-size: 16px;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 10px 0;
 }
 
 input:focus {
@@ -35,6 +58,7 @@ input[type=submit]:active {
   flex-wrap: wrap;
   margin: 0 10%;
   flex-direction: row;
+  align-items: flex-start;
 }
 
 .column {
@@ -57,6 +81,6 @@ input[type=submit]:active {
   border-radius: 25px;
   border: 0;
   padding: 5px 20px;
-  margin: 25px 5px;
+  margin: 20px 5px 10px 5px;
   transition-duration: 0.2s;
 }
