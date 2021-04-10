@@ -27,6 +27,7 @@ function App() {
       setWeatherData(res);
     })
     .catch(function (error) {
+      setFirstRun(false);
       setWeatherData(null);
     })
   }

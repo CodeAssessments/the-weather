@@ -62,7 +62,7 @@ input[type=submit]:active {
 }
 
 .column {
-  min-width: 360px;
+  min-width: 300px;
   flex: 1;
 }
 
@@ -86,4 +86,14 @@ input[type=submit]:active {
   padding: 5px 20px;
   margin: 20px 5px 10px 5px;
   transition-duration: 0.2s;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    flex-direction: row;
+    align-items: flex-start;
+  }
 }
