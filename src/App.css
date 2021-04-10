@@ -9,11 +9,25 @@
 .App {
   text-align: center;
   background-image: linear-gradient(-5deg, #6accec, #2670c5);
-  height: 100vh;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 input:focus {
   outline: none;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(224, 244, 224, 0.3);
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+input[type=submit]:active {
+  background-color: rgba(224, 244, 224, 0.6);
 }
 
 .container {
@@ -24,11 +38,25 @@ input:focus {
 }
 
 .column {
-  min-width: 300px;
+  min-width: 360px;
   flex: 1;
   margin: 10px;
+  background-color: rgba(224, 244, 224, 0.2);
+  border-radius: 25px;
 }
 
 .row {
+  display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.input {
+  background-color: rgba(224, 244, 224, 0.2);
+  border-radius: 25px;
+  border: 0;
+  padding: 5px 20px;
+  margin: 25px 5px;
+  transition-duration: 0.2s;
 }
