@@ -1,7 +1,6 @@
 import React from 'react'
 import WeatherDay from './WeatherDay'
 import CityData from './CityData'
-import WeatherChart from './WeatherChart'
 
 const WeatherDisplay = ({weatherData, dayList}) => {
   const monthNames =['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
@@ -12,9 +11,6 @@ const WeatherDisplay = ({weatherData, dayList}) => {
       <div className='column'>
         <div className='columnStyle'>
           <CityData weatherData={weatherData} />
-        </div>
-        <div className='columnStyle'>
-          <WeatherChart weatherData={weatherData} />
         </div>
       </div>
 
